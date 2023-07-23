@@ -23,4 +23,4 @@ jobs:
       - run: git config user.email "xiaruiyuan2002@gmail.com"
       - run: git add .
       - run: git commit -m "automatic deployment"
-      - run: git push origin main
+      - run: git push main main
