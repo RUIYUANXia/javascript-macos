@@ -1,6 +1,6 @@
 # mac OS system replica
 
-Website is live on [mac OS system replica](ruiyuanxia.github.io/javascript-macos/)
+Website is live on [mac OS system replica](https://ruiyuanxia.github.io/javascript-macos/)
 
 ## Components
 
