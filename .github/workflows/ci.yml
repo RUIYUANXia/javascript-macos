@@ -21,7 +21,6 @@ jobs:
         run: npm run build
       - run: git config user.name "Ruiyuan Xia"
       - run: git config user.email "xiaruiyuan2002@gmail.com"
-      - run: git checkout -b temporary-branch
-      - run: git add .
+      - run: git add build
       - run: git commit -m "automatic deployment"
       - run: git push origin main
