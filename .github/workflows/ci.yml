@@ -24,4 +24,4 @@ jobs:
       - run: git checkout -b temporary-branch
       - run: git add .
       - run: git commit -m "automatic deployment"
-      - run: git push origin HEAD:gh-pages --force
+      - run: git push origin main
