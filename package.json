@@ -36,7 +36,7 @@
       "vite": "^2.3.4"
     },
     "name": "javascript-macos",
-    "homepage": "https://ruiyuanxia.github.io/mac-os/",
+    "homepage": "https://ruiyuanxia.github.io/mac-os",
     "scripts": {
       "build": "tsc && vite build",
       "build-local": "rm -rf build/ && tsc && vite build && mv dist build",
