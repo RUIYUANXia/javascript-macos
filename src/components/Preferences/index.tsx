@@ -39,8 +39,7 @@ const DOCK_POSITIONS = [
 const CHANGE_DOCK_ICON_SIZE = 'Icon Size';
 const CHANGE_DOCK_BIG_ICON_SIZE = 'Icon Size (Hover Effect)';
 const CHANGE_DOCK_DISTANCE_BETWEEN_ICONS = 'Distance Between Icons';
-const CHANGE_DOCK_DISTANCE_TO_SCREEN_EDGE =
-    'Dock Distance Towards Screen Edge';
+const CHANGE_DOCK_DISTANCE_TO_SCREEN_EDGE = 'Dock Distance Towards Screen Edge';
 const CHANGE_DOCK_POSITION = 'Dock Position';
 
 const Preferences: React.FC<PreferencesProps> = (props: PreferencesProps) => {
@@ -162,7 +161,7 @@ const Preferences: React.FC<PreferencesProps> = (props: PreferencesProps) => {
                                         marginRight: '6px',
                                     }}
                                 />
-                                <Text color="#414141" size="14" bold >
+                                <Text color="#414141" size="14" bold>
                                     General
                                 </Text>
                             </ListViewRow>

@@ -30,7 +30,7 @@ const Dock: React.FC = () => {
     const dockRef = useRef<HTMLDivElement>(null);
     const dockIcons = useMemo(() => {
         return [
-            FinderIcon,  // not implemented
+            FinderIcon, // not implemented
             LaunchpadIcon,
             PreferencesIcon,
             ChromeIcon,
