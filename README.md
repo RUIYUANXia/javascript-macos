@@ -1,1 +1,0 @@
-# mac OS system replica
