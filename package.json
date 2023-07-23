@@ -1,5 +1,5 @@
 {
-  "author": "Chuntong Gao",
+  "author": "Ruiyuan Xia",
   "dependencies": {
     "dayjs": "^1.10.5",
     "lodash": "^4.17.21",
@@ -36,11 +36,13 @@
     "vite": "^2.3.4"
   },
   "name": "javascript-macos",
+  "homepage": "https://ruiyuanxia.github.io/mac-os/",
   "scripts": {
     "build": "tsc && vite build",
     "build-local": "rm -rf build/ && tsc && vite build && mv dist build",
     "check": "npm run stylelint && npm run prettier-check && npm run eslint-check && npm run tsc-check",
-    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "start": "vite",
     "eslint-check": "eslint --no-error-on-unmatched-pattern \"src/**/*.{ts,tsx}\"",
     "eslint-fix": "eslint --no-error-on-unmatched-pattern \"src/**/*.{ts,tsx}\" --fix",
