@@ -2,7 +2,7 @@ name: continuous integration & continuous deployment to GitHub Pages
 on:
   push:
     branches:
-      - solution
+      - main
 jobs:
   ci:
     runs-on: ubuntu-latest
