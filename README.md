@@ -14,7 +14,7 @@ Website is live on [mac OS system replica](https://ruiyuanxia.github.io/javascri
 
 - React.js for component-based, declarative UI development
 - TypeScript for enhancing code readability and catching bugs early at compile time
-- ESLint + husky + prettier + lint-staged + typescript compiler for consistent coding style and automated code checking
+- ESLint + prettier + lint-staged + typescript compiler for consistent coding style and automated code checking
 - And so much more...
 
 
