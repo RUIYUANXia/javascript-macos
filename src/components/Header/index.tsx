@@ -60,8 +60,7 @@ const Header: React.FC = () => {
             </div>
             <div className="HeaderRight">
                 <a
-                    // TODO: Personal Website Link
-                    href=""
+                    href="https://ruiyuanxia.github.io/personal-web/"
                     rel="noopener noreferrer"
                     target="_blank"
                 >
